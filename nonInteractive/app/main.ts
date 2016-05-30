@@ -7,8 +7,8 @@ import {OverviewComponent} from './overview.component';
 import {AWSComponent} from './amazone.component';
 import {CebitComponent} from './cebit.component';
 import {CourseComponent} from './course.component';
-import {HackatonComponent} from './hackaton.component';
 import {INGComponent} from './ing.component';
+import {ReflectionComponent} from './reflection.component';
 
 bootstrap(NavComponent);
 bootstrap(WhoisheComponent);
@@ -18,5 +18,5 @@ bootstrap(OverviewComponent);
 bootstrap(AWSComponent);
 bootstrap(CebitComponent);
 bootstrap(CourseComponent);
-bootstrap(HackatonComponent);
 bootstrap(INGComponent);
+bootstrap(ReflectionComponent);
