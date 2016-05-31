@@ -29,7 +29,7 @@ export class OverviewComponent implements OnInit{
             "student_participation": false
         },{
             "title": "SmartBeehive",
-            "description": "IoT project waarbij ik de spring backend heb geschreven.Met dit kleine IoT toestel can je de temperatuur, de vochtigheid, het gewicht, het geluid, ... van een bijen kork realtime te weten komen.",
+            "description": "IoT project waarbij ik de spring backend heb geschreven.Met dit kleine IoT toestel can je de temperatuur, de vochtigheid, het gewicht, het geluid, ... van een bijen korf realtime te weten komen.",
             "location": "PXL-Research",
             "date": "Van 01/03/2015 tot 07/06/2015",
             "time_past": 40,
