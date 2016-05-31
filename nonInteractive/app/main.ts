@@ -10,6 +10,10 @@ import {CourseComponent} from './course.component';
 import {INGComponent} from './ing.component';
 import {ReflectionComponent} from './reflection.component';
 
+import {ImagewhoisheComponent} from './imagewhoishe.component';
+import {ImageskillsComponent} from './imageskills.component';
+import {ImagecebitComponent} from './imagecebit.component';
+
 bootstrap(NavComponent);
 bootstrap(WhoisheComponent);
 bootstrap(ImagestrapComponent);
@@ -20,3 +24,6 @@ bootstrap(CebitComponent);
 bootstrap(CourseComponent);
 bootstrap(INGComponent);
 bootstrap(ReflectionComponent);
+bootstrap(ImagewhoisheComponent);
+bootstrap(ImageskillsComponent);
+bootstrap(ImagecebitComponent);
