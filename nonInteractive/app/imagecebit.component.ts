@@ -6,5 +6,5 @@ import {Component} from 'angular2/core';
 })
 export class ImagecebitComponent {
     imgUrl = "../cebit.jpg";
-    imgAlt = "Cebit laatste avond in Berijn. Want plezier moet er ook zijn!";
+    imgAlt = "Laatste avond in Berijn. Want plezier moet er ook zijn!";
 }

@@ -13,6 +13,7 @@ import {ReflectionComponent} from './reflection.component';
 import {ImagewhoisheComponent} from './imagewhoishe.component';
 import {ImageskillsComponent} from './imageskills.component';
 import {ImagecebitComponent} from './imagecebit.component';
+import {ImageamazonComponent} from './imageamazon.component';
 
 bootstrap(NavComponent);
 bootstrap(WhoisheComponent);
@@ -27,3 +28,4 @@ bootstrap(ReflectionComponent);
 bootstrap(ImagewhoisheComponent);
 bootstrap(ImageskillsComponent);
 bootstrap(ImagecebitComponent);
+bootstrap(ImageamazonComponent);
