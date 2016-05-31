@@ -29,9 +29,9 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                     this.activities = [
                         {
                             "title": "Vlaamse programeer wedstrijd(Flemish coding contest)",
-                            "description": "A coding contest where people from whole flanders take part. End result... 7th of 48 teams.",
+                            "description": "Een codeer wedstrijd waar mensen van over heel vlaanderen deelnemen. middelbaar universiteit, hogenschool en bedrijven. Ons eind resultaat 7de van de 48!",
                             "location": "Thomas More",
-                            "date": "Date 06/03/2015",
+                            "date": "Datum 06/03/2015",
                             "time_past": 7,
                             "own_idea": true,
                             "international": false,
@@ -41,9 +41,9 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                             "student_participation": false
                         }, {
                             "title": "SmartBeehive",
-                            "description": "Iot project where i build the Spring backend. With this little IoT device, you can messure realtime the temprature, humidity, weight, noise, ... of a beehive.",
+                            "description": "IoT project waarbij ik de spring backend heb geschreven.Met dit kleine IoT toestel can je de temperatuur, de vochtigheid, het gewicht, het geluid, ... van een bijen kork realtime te weten komen.",
                             "location": "PXL-Research",
-                            "date": "From 01/03/2015 tot 07/06/2015",
+                            "date": "Van 01/03/2015 tot 07/06/2015",
                             "time_past": 40,
                             "own_idea": true,
                             "international": false,
@@ -53,9 +53,9 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                             "student_participation": false
                         }, {
                             "title": "Seminary Intership",
-                            "description": "What do we need to know for our internship in our last semester.",
+                            "description": "Wat moeten we allemaal weten voor onze stage volgend jaar? Welke papieren moeten we invullen en hoe moeten we op zoek gaan naar een stage bedrijf.",
                             "location": "PXL",
-                            "date": "Date 09/12/2015",
+                            "date": "Datum 09/12/2015",
                             "time_past": 3,
                             "own_idea": false,
                             "international": false,
@@ -65,9 +65,9 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                             "student_participation": false
                         }, {
                             "title": "International drone week",
-                            "description": "Helping international students with their questions about Computer Vision and controlling a drone with your computer.",
+                            "description": "Deze week heb ik internationale studenten geholpen met hun vragen over Computer vision en het aansturen van een drone. Dit was tijdens semenaries en tijdens demo vluchten.",
                             "location": "PXL, Droneport Sint Truiden",
-                            "date": "to 15/02/2016 to 19/02/2016",
+                            "date": "Van 15/02/2016 tot 19/02/2016",
                             "time_past": 12,
                             "own_idea": true,
                             "international": true,
@@ -77,9 +77,9 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                             "student_participation": false
                         }, {
                             "title": "SID-IN Genk",
-                            "description": "Helping 18 Year olds with their questions about Appliesd computer science.",
+                            "description": "Bij de SID-IN in genk hielp ik jongeren met vragen over Toegepaste Informatica. at is het verschil tussen dit en de universitaire richting, of dit en electronica-ict, ...",
                             "location": "Genk",
-                            "date": "Date 27/02/2016",
+                            "date": "Datum 27/02/2016",
                             "time_past": 6,
                             "own_idea": true,
                             "international": false,
@@ -89,9 +89,9 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                             "student_participation": true
                         }, {
                             "title": "Tutoring Programming Basics",
-                            "description": "Helping first year student with their problems with Programming basics. Giving 3 private lessons of 2 hours each.",
+                            "description": "Bij tutoring heb ik eerste jaars studenten geholpen met het vak programming basics. Hiervoor gaf ik prive les en zeer persoonlijke begeleiding aan mijn tutee! ",
                             "location": "PXL",
-                            "date": "From 13/10/2014 to 9/11/2014",
+                            "date": "Van 13/10/2014 tot 9/11/2014",
                             "time_past": 20,
                             "own_idea": true,
                             "international": false,
@@ -101,9 +101,9 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                             "student_participation": false
                         }, {
                             "title": "ING Agile Development",
-                            "description": "How does ING implement Agile development? And what advantages or disadvantages do they see.",
+                            "description": "Hoe implementeerd ING Agile Development? En wat is zijn de voor- en nadelen van agile development.",
                             "location": "PXL",
-                            "date": "Date 30/0/2015",
+                            "date": "Datum 30/0/2015",
                             "time_past": 3,
                             "own_idea": false,
                             "international": false,
@@ -113,9 +113,9 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                             "student_participation": false
                         }, {
                             "title": "Projectweek",
-                            "description": "The goal of this week was to become aware about everything around IT. What do you need to succeed in the IT-World. Softskills, management, een eigen bedrijf starten, were some of many topics discusded in this week.",
+                            "description": "Het doel van deze week was bekend te raken met alles rondom IT. What heb je allemaal nodig om succesvol te zijn in de IT Wereld. Softskills, management, een eigen bedrijf starten, waren slechts enkele topics die werden aangehaalt die week.",
                             "location": "PXL",
-                            "date": "From 02/02/2015 to 09/02/2015",
+                            "date": "Van 02/02/2015 tot 09/02/2015",
                             "time_past": 3,
                             "own_idea": false,
                             "international": false,
@@ -125,9 +125,9 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                             "student_participation": false
                         }, {
                             "title": "Windows Dev Day",
-                            "description": "What is new in the windows world? And how can we integrate these new things in a windows enviroment.",
+                            "description": "Wat is er nieuw in de Windows wereld? en hoe kunnen we deze nieuwe dingen toepassen?",
                             "location": "PXL Conference",
-                            "date": "Date 29/10/2015",
+                            "date": "Datum 29/10/2015",
                             "time_past": 8,
                             "own_idea": false,
                             "international": false,
@@ -137,9 +137,9 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                             "student_participation": false
                         }, {
                             "title": "Putting The R Back In RAD Contribute",
-                            "description": "What is RAD, and what are the best practices of it.",
+                            "description": "Wat is RAD en wat zijn de best practices voor RAD?",
                             "location": "PXL",
-                            "date": "Date 28/10/2015",
+                            "date": "Datum 28/10/2015",
                             "time_past": 3,
                             "own_idea": false,
                             "international": false,
@@ -149,9 +149,9 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                             "student_participation": false
                         }, {
                             "title": "BPM(n)/Agile/RequirementsGathering by Contribute",
-                            "description": "A seminary about agile development, requirments atering and BPM(n) by Contribute.",
+                            "description": "Een semenary over agile development en requirments gatering. Plus nog een extratje van BPM. Uitgelegt door Contribute.",
                             "location": "pxl",
-                            "date": "Date 21/10/2015",
+                            "date": "Datum 21/10/2015",
                             "time_past": 7,
                             "own_idea": false,
                             "international": false,
@@ -161,9 +161,9 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                             "student_participation": false
                         }, {
                             "title": "CEBIT",
-                            "description": "A four day visit to Berlin and the CEBIT Conference! Organized by PXL-IT.",
+                            "description": " Een vier daagse reis, met een bezoek aan Berlijn, de CEBIT Conferentie en de Reinsche post. Georganizeerd door PXL-IT!",
                             "location": "Hanover, Berlin",
-                            "date": "From 16/03/2016 to 19/03/2016",
+                            "date": "Van 16/03/2016 tot 19/03/2016",
                             "time_past": 30,
                             "own_idea": false,
                             "international": true,
@@ -173,9 +173,9 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                             "student_participation": false
                         }, {
                             "title": "Amazone AWS Seminary",
-                            "description": "A seminary where they explained the basics of building a backend with Amazone AWS",
+                            "description": "Een semenarie waar ze uitleg gaven over het bouwen van een backend in de AWS cloud. Welke vernieuwende technieken bestaan er binnen dit platform!",
                             "location": "Fenego Hasselt",
-                            "date": "Date 15/10/2015",
+                            "date": "Datum 15/10/2015",
                             "time_past": 2,
                             "own_idea": true,
                             "international": false,
@@ -185,9 +185,9 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                             "student_participation": false
                         }, {
                             "title": "Bose Sound Touch hackaton",
-                            "description": "A hackaton, to see what is possible with a Bose Soundtouch. Made it to the second place, and won the price for most inovative backend from Amazone.",
+                            "description": "Een hackaton met het Bose SoundTouch syteem. Wat is er allemaal mogelijk mee en kan je er leuken ideëen mee verzinnen. We eindigde 2de en kregen de 1ste plaats voor meest vernieuwende backend van Amazon!",
                             "location": "Corda Incubator",
-                            "date": "From 16/10/2015 to 18/10/2015",
+                            "date": "Van 16/10/2015 tot 18/10/2015",
                             "time_past": 25,
                             "own_idea": true,
                             "international": false,
@@ -197,9 +197,9 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                             "student_participation": false
                         }, {
                             "title": "Workshop Drones",
-                            "description": "A workshop where i learned the basics about controlling a Parrot AR drone with a computer.",
+                            "description": "Een workshop waarbij ik de basis leerden van het controleren van een Parrot AR drone. Zowel manueel als met een computer programma.",
                             "location": "PXL",
-                            "date": "From 30/11/2015 to 02/12/2015",
+                            "date": "Van 30/11/2015 tot 02/12/2015",
                             "time_past": 12,
                             "own_idea": false,
                             "international": false,
@@ -209,9 +209,9 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                             "student_participation": false
                         }, {
                             "title": "Tutoring Java Advanced",
-                            "description": "Helping first year student with their problems with Java Advanced. Giving 3 private lessons of 2 hours each.",
+                            "description": "Bij tutoring heb ik eerste jaars studenten geholpen met het vak Java Advanced. Hiervoor gaf ik prive les en zeer persoonlijke begeleiding aan mijn tutee!",
                             "location": "PXL",
-                            "date": "From 13/10/2014 tot 9/11/2014",
+                            "date": "Van 13/10/2014 tot 9/11/2014",
                             "time_past": 20,
                             "own_idea": true,
                             "international": false,
