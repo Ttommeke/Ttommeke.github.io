@@ -1,28 +1,28 @@
 'use strict';
 
-var scene = new THREE.Scene();
-var camera = createCamera();
+let scene = new THREE.Scene();
+let camera = createCamera();
 
 var clock = new THREE.Clock;
 
-var renderer = undefined;
+let renderer = undefined;
 try {
     renderer = new THREE.WebGLRenderer();
     //throw "error test";
 } catch (err) {
     console.log("display error");
-    var errorBuf = document.getElementById("bufWebglError").style.display = "block";
-    var errorM = document.getElementById("webglError").style.display = "block";
+    let errorBuf = document.getElementById("bufWebglError").style.display = "block";
+    let errorM = document.getElementById("webglError").style.display = "block";
 }
 renderer.setClearColor( 0x2ad3d6, 1 );
 renderer.setSize( window.innerWidth, window.innerHeight );
 document.body.appendChild( renderer.domElement );
 
-var cube = createCube(0x0000AA, -11,0,-4, 0.8,1.2,0.8);
+let cube = createCube(0x0000AA, -11,0,-4, 0.8,1.2,0.8);
 cube.wantedposition = { x: cube.position.x, z: cube.position.z}
 scene.add(cube);
 
-var fontLoader = new THREE.FontLoader();
+let fontLoader = new THREE.FontLoader();
 fontLoader.load( "js/libs/MineCrafter.js", loadFont, undefined, undefined );
 
 initMap();
@@ -30,10 +30,10 @@ initLights();
 initClouds();
 
 clock.getDelta();
-var render = function () {
+let render = function () {
     requestAnimationFrame( render );
 
-    var delta = clock.getDelta();
+    let delta = clock.getDelta();
 
     if (delta > 1) {
         delta = 1;
@@ -50,6 +50,6 @@ var render = function () {
     renderer.render(scene, camera);
 };
 
-var audio = new Audio('rartyRock.mp3');
+let audio = new Audio('rartyRock.mp3');
 
 render();

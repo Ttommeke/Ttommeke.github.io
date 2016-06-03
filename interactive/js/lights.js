@@ -1,12 +1,12 @@
 'use strict';
 
-let hemisphereLight = undefined;
-let sunLight = undefined;
-let greenLight = undefined;
-let redLight = undefined;
-let blueLight = undefined;
+var hemisphereLight = undefined;
+var sunLight = undefined;
+var greenLight = undefined;
+var redLight = undefined;
+var blueLight = undefined;
 
-let initLights = function() {
+var initLights = function() {
     sunLight = new THREE.DirectionalLight( 0xffffff, 1 );
     sunLight.position.set( 25, 50, -10 );
     scene.add( sunLight );
