@@ -1,44 +1,44 @@
 'use strict';
 
-var minecrafterFont = undefined;
+let minecrafterFont = undefined;
 
-var loadFont = function(myFont) {
+let loadFont = function(myFont) {
     minecrafterFont = myFont;
 
     initMessages();
 };
 
-var messages = [];
+let messages = [];
 
-var createMessage = function(text) {
-    var geometry = new THREE.TextGeometry(text, {
+let createMessage = function(text) {
+    let geometry = new THREE.TextGeometry(text, {
             font: minecrafterFont,
             size: 0.4,
             height: 0.2
         });
-    var material = new THREE.MeshLambertMaterial({color: 0x6a6a6b});
+    let material = new THREE.MeshLambertMaterial({color: 0x6a6a6b});
     material.opacity = 0;
     material.transparent = true;
-    var textM = new THREE.Mesh( geometry, material );
+    let textM = new THREE.Mesh( geometry, material );
 
     return textM;
 };
 
-var createTotemMessage = function(text) {
-    var geometry = new THREE.TextGeometry(text, {
+let createTotemMessage = function(text) {
+    let geometry = new THREE.TextGeometry(text, {
             font: minecrafterFont,
             size: 0.2,
             height: 0.1
         });
-    var material = new THREE.MeshLambertMaterial({color: 0xb29060});
-    var textM = new THREE.Mesh( geometry, material );
+    let material = new THREE.MeshLambertMaterial({color: 0xb29060});
+    let textM = new THREE.Mesh( geometry, material );
 
     return textM;
 };
 
-var objectFade = function(delta, messages) {
-    for (var i = 0; i < messages.length; i++) {
-        var deltaOpacity = messages[i].material.wantedOpacity - messages[i].material.opacity;
+let objectFade = function(delta, messages) {
+    for (let i = 0; i < messages.length; i++) {
+        let deltaOpacity = messages[i].material.wantedOpacity - messages[i].material.opacity;
 
         if (deltaOpacity > 0.05) {
             messages[i].material.opacity += delta;
@@ -52,7 +52,7 @@ var objectFade = function(delta, messages) {
     }
 };
 
-var initMessages = function() {
+let initMessages = function() {
 
     messages.push(createMessage('I am Tom!'));
     messages[0].position.set(-20,-0,-8);
@@ -197,9 +197,9 @@ var initMessages = function() {
     createTotem('Angular 2', 2, -32, -58);
 }
 
-var showMessage = function(id) {
+let showMessage = function(id) {
     messages[id].material.wantedOpacity = 1;
 }
-var hideMessage = function(id) {
+let hideMessage = function(id) {
     messages[id].material.wantedOpacity = 0;
 }

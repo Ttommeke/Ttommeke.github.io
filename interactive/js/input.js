@@ -1,9 +1,9 @@
-var keyUp = false;
-var keyDown = false;
-var keyLeft = false;
-var keyRight = false;
+let keyUp = false;
+let keyDown = false;
+let keyLeft = false;
+let keyRight = false;
 
-var keyDownFunc = function(e) {
+let keyDownFunc = function(e) {
 
     if (e.keyCode == 37) {
         if (!keyLeft && !checkCubeCollision(map,cube.wantedposition.x - 1, cube.wantedposition.z)) {
@@ -38,7 +38,7 @@ var keyDownFunc = function(e) {
     console.log('x: ' + cube.wantedposition.x + ' z: ' + cube.wantedposition.z);
 }
 
-var keyUpFunc = function(e) {
+let keyUpFunc = function(e) {
     if (e.keyCode == 37) {
         keyLeft = false;
     }
@@ -53,9 +53,9 @@ var keyUpFunc = function(e) {
     }
 }
 
-var moveMouse = function(e) {
-    var x = -(e.clientX + 0.0 - window.innerWidth/2) / 600;
-    var y = -(e.clientY - window.innerHeight/2) / 600;
+let moveMouse = function(e) {
+    let x = -(e.clientX + 0.0 - window.innerWidth/2) / 600;
+    let y = -(e.clientY - window.innerHeight/2) / 600;
 
     //camera.position.x = 7-x-y;
     //camera.position.z = 7+x-y;
