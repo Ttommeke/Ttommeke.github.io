@@ -65,7 +65,7 @@ export class OverviewComponent implements OnInit{
             "student_participation": false
         },{
             "title": "SID-IN Genk",
-            "description": "Bij de SID-IN in genk hielp ik jongeren met vragen over Toegepaste Informatica. Dat is het verschil tussen dit en de universitaire richting, of dit en electronica-ict, ...",
+            "description": "Bij de SID-IN in genk hielp ik jongeren met vragen over Toegepaste Informatica. at is het verschil tussen dit en de universitaire richting, of dit en electronica-ict, ...",
             "location": "Genk",
             "date": "Datum 27/02/2016",
             "time_past": 6,
@@ -77,7 +77,7 @@ export class OverviewComponent implements OnInit{
             "student_participation": true
         },{
             "title": "Tutoring Programming Basics",
-            "description": "Bij tutoring heb ik eerstejaars studenten geholpen met het vak programming basics. Hiervoor gaf ik prive les en zeer persoonlijke begeleiding aan mijn tutee! ",
+            "description": "Bij tutoring heb ik eerste jaars studenten geholpen met het vak programming basics. Hiervoor gaf ik prive les en zeer persoonlijke begeleiding aan mijn tutee! ",
             "location": "PXL",
             "date": "Van 13/10/2014 tot 9/11/2014",
             "time_past": 20,
@@ -113,7 +113,7 @@ export class OverviewComponent implements OnInit{
             "student_participation": false
         },{
             "title": "Windows Dev Day",
-            "description": "Wat is er nieuw in de Windows wereld? En hoe kunnen we deze nieuwe dingen toepassen?",
+            "description": "Wat is er nieuw in de Windows wereld? en hoe kunnen we deze nieuwe dingen toepassen?",
             "location": "PXL Conference",
             "date": "Datum 29/10/2015",
             "time_past": 8,
@@ -137,7 +137,7 @@ export class OverviewComponent implements OnInit{
             "student_participation": false
         },{
             "title": "BPM(n)/Agile/RequirementsGathering by Contribute",
-            "description": "Een seminarie over agile development en requirments gatering. Plus nog een extratje van BPM. Uitgelegt door Contribute.",
+            "description": "Een semenary over agile development en requirments gatering. Plus nog een extratje van BPM. Uitgelegt door Contribute.",
             "location": "pxl",
             "date": "Datum 21/10/2015",
             "time_past": 7,
@@ -160,7 +160,7 @@ export class OverviewComponent implements OnInit{
             "sience": false,
             "student_participation": false
         },{
-            "title": "Amazon AWS Seminary",
+            "title": "Amazone AWS Seminary",
             "description": "Een semenarie waar ze uitleg gaven over het bouwen van een backend in de AWS cloud. Welke vernieuwende technieken bestaan er binnen dit platform!",
             "location": "Fenego Hasselt",
             "date": "Datum 15/10/2015",
@@ -197,7 +197,7 @@ export class OverviewComponent implements OnInit{
             "student_participation": false
         },{
             "title": "Tutoring Java Advanced",
-            "description": "Bij tutoring heb ik eerstejaars studenten geholpen met het vak Java Advanced. Hiervoor gaf ik prive les en zeer persoonlijke begeleiding aan mijn tutee!",
+            "description": "Bij tutoring heb ik eerste jaars studenten geholpen met het vak Java Advanced. Hiervoor gaf ik prive les en zeer persoonlijke begeleiding aan mijn tutee!",
             "location": "PXL",
             "date": "Van 13/10/2014 tot 9/11/2014",
             "time_past": 20,
