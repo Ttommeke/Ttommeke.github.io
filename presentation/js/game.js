@@ -94,4 +94,16 @@ let initMessages = function() {
     messages[12].rotation.set(0,3.14*5/8,3.14*3/8);
     scene.add(messages[12]);
 
+    messages.push(createMessage('Java', 0.06, BOOK_RED));
+    messages[13].position.set(-28.8,1.03,-36.73);
+    messages[13].rotation.order = 'ZYX';
+    messages[13].rotation.set(0,3.14*5/8,3.14*3/8);
+    scene.add(messages[13]);
+
+    messages.push(createMessage('Advanced', 0.028, BOOK_RED));
+    messages[14].position.set(-28.84,0.95,-37.01);
+    messages[14].rotation.order = 'ZYX';
+    messages[14].rotation.set(0,3.14*3/8,3.14*3/8);
+    scene.add(messages[14]);
+
 }
