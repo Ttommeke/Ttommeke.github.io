@@ -104,7 +104,7 @@ export class OverviewComponent implements OnInit{
             "description": "Het doel van deze week was bekend te raken met alles rondom IT. What heb je allemaal nodig om succesvol te zijn in de IT Wereld. Softskills, management, een eigen bedrijf starten, waren slechts enkele topics die werden aangehaalt die week.",
             "location": "PXL",
             "date": "Van 02/02/2015 tot 09/02/2015",
-            "time_past": 3,
+            "time_past": 21,
             "own_idea": false,
             "international": false,
             "semenaries": false,
