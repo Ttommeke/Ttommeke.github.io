@@ -45,13 +45,13 @@ let initMessages = function() {
     messages[4].rotation.set(3.14 / 8, 0, 0);
     scene.add(messages[4]);
 
-    messages.push(createMessage('2015 - 1016', 0.3, 0xFFFFFF));
-    messages[5].position.set(-11.5,8.2,+3.7);
+    messages.push(createMessage('2015 - 2016', 0.3, 0xFFFFFF));
+    messages[5].position.set(-11.5,8.2,+3.5);
     messages[5].rotation.set(3.14 / 8, 0, 0);
     scene.add(messages[5]);
 
     messages.push(createMessage('ITalent', 0.3, 0xFFFFFF));
-    messages[6].position.set(-7.0,8.2,+3.7);
+    messages[6].position.set(-7.0,8.2,+3.5);
     messages[6].rotation.set(3.14 / 8, 0, 0);
     scene.add(messages[6]);
 
