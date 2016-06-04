@@ -1,6 +1,12 @@
 
-let wantedPosition = 0;
-let positions = [{ "x":-8 , "y":2 , "z":2 , "rx":0, "ry":0, "rz":0},{ "x":-8 , "y":0 , "z":-34 , "rx":3.14 / 12, "ry":0, "rz":0}];
+let wantedPosition = 4;
+let positions = [
+    { "x":-8 , "y":7 , "z":10 , "rx":3.14/8, "ry":0, "rz":0},
+    { "x":-8 , "y":2 , "z":2 , "rx":0, "ry":0, "rz":0},
+    { "x":-8 , "y":0 , "z":-34 , "rx":3.14 / 12, "ry":0, "rz":0},
+    { "x":-24 , "y":0.5 , "z":-37 , "rx":0, "ry":3.14/2, "rz":0},
+    { "x":-28.5 , "y":2 , "z":-37 , "rx":-3.14*3/8, "ry":3.14/2, "rz":0}
+];
 
 let createCamera = function() {
     let camera = new THREE.PerspectiveCamera( 70, window.innerWidth/window.innerHeight, 0.1, 1000 );

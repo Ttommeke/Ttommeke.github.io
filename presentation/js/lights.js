@@ -13,4 +13,8 @@ let initLights = function() {
 
     hemisphereLight = new THREE.HemisphereLight( 0xffffff, 0xffffff, 0.4 );
     scene.add( hemisphereLight );
+
+    var PXLlight = new THREE.PointLight( 0xffffff, 1, 20 );
+    PXLlight.position.set( -3 , 13 , 10 );
+    scene.add( PXLlight );
 };
