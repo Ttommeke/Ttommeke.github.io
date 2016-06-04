@@ -1,5 +1,5 @@
 
-let wantedPosition = 4;
+let wantedPosition = 0;
 let positions = [
     { "x":-8 , "y":7 , "z":10 , "rx":3.14/8, "ry":0, "rz":0},
     { "x":-8 , "y":2 , "z":2 , "rx":0, "ry":0, "rz":0},
