@@ -32,7 +32,7 @@ let initMessages = function() {
     messages[1].position.set(-8.5,1.2,-37.9);
     scene.add(messages[1]);
 
-    messages.push(createMessage('th', 0.15));
+    messages.push(createMessage('nd', 0.15));
     messages[2].position.set(-7.75,1.65,-37.7);
     scene.add(messages[2]);
 
@@ -106,4 +106,64 @@ let initMessages = function() {
     messages[14].rotation.set(0,3.14*3/8,3.14*3/8);
     scene.add(messages[14]);
 
+    messages.push(createMessage('Smart', 0.7));
+    messages[15].position.set(-22.5,1.2,-22);
+    messages[15].rotation.set(0,3.14,0);
+    scene.add(messages[15]);
+
+    messages.push(createMessage('Beehive', 0.55));
+    messages[16].position.set(-22.5,0.3,-22);
+    messages[16].rotation.set(0,3.14,0);
+    scene.add(messages[16]);
+
+
+    messages.push(createMessage('Amazon', 0.5));
+    messages[17].position.set(-51,22,-27);
+    messages[17].rotation.set(0,0,0);
+    scene.add(messages[17]);
+
+    messages.push(createMessage('web services', 0.3));
+    messages[18].position.set(-51,21.5,-27);
+    messages[18].rotation.set(0,0,0);
+    scene.add(messages[18]);
+
+    messages.push(createMessage('Cijfers', 0.5));
+    messages[19].position.set(-22,-0.5,0);
+    messages[19].rotation.set(0,3.14/2,0);
+    scene.add(messages[19]);
+
+    messages.push(createMessage('50', 0.5));
+    messages[20].position.set(-28,-0.5,-5);
+    messages[20].rotation.set(0,3.14/2,0);
+    scene.add(messages[20]);
+
+    messages.push(createMessage('101', 0.5));
+    messages[21].position.set(-33,-0.5,-1);
+    messages[21].rotation.set(0,3.14/2,0);
+    scene.add(messages[21]);
+
+    messages.push(createMessage('42', 0.5));
+    messages[22].position.set(-34,-0.5,-6);
+    messages[22].rotation.set(0,3.14,0);
+    scene.add(messages[22]);
+
+    messages.push(createMessage('32', 0.5));
+    messages[23].position.set(-34,-0.5,-14);
+    messages[23].rotation.set(0,0,0);
+    scene.add(messages[23]);
+
+    messages.push(createMessage('6', 0.5));
+    messages[24].position.set(-40,-0.5,-8);
+    messages[24].rotation.set(0,3.14,0);
+    scene.add(messages[24]);
+
+    messages.push(createMessage('223', 0.5));
+    messages[25].position.set(-40,-0.5,-1);
+    messages[25].rotation.set(0,3.14/2,0);
+    scene.add(messages[25]);
+
+    messages.push(createMessage('Vragen?', 1));
+    messages[26].position.set(-12,14.5,+5.7);
+    messages[26].rotation.set(3.14 * 1.5 / 4, 0, 0);
+    scene.add(messages[26]);
 }
