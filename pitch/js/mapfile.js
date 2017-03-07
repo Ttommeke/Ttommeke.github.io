@@ -201,7 +201,7 @@ let initMessages = function() {
     scene.add(messages[23]);
 };
 
-let wantedPosition = 9;
+let wantedPosition = 0;
 let positions = [
     { "x":blackboxX , "y":blackboxY , "z":blackboxZ + 12 , "rx":0, "ry":0, "rz":0},
     { "x":blackboxX , "y":blackboxY , "z":blackboxZ + 18 , "rx":0, "ry":0, "rz":0},
