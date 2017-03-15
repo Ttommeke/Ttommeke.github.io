@@ -57,7 +57,7 @@ let initMessages = function() {
     scene.add( black_box );
 
     messages.push(createMessage('3-Zy', 0.6, 0.02, 0xFFFFFF));
-    messages[0].position.set(blackboxX-3,blackboxY+1,blackboxZ+6);
+    messages[0].position.set(blackboxX+2.3,blackboxY+1,blackboxZ+6);
     messages[0].rotation.set( 0, 0, 0);
     scene.add(messages[0]);
 
