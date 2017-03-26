@@ -56,8 +56,8 @@ let initMessages = function() {
     let black_box = createCube(0x222222, blackboxX,blackboxY,blackboxZ, 12,12,12);
     scene.add( black_box );
 
-    messages.push(createMessage('ProductName', 0.6, 0.02, 0xFFFFFF));
-    messages[0].position.set(blackboxX-3,blackboxY+1,blackboxZ+6);
+    messages.push(createMessage('3-Zy', 0.6, 0.02, 0xFFFFFF));
+    messages[0].position.set(blackboxX+2.3,blackboxY+1,blackboxZ+6);
     messages[0].rotation.set( 0, 0, 0);
     scene.add(messages[0]);
 
