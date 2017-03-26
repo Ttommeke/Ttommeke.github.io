@@ -58,8 +58,8 @@ let initMessages = function() {
     messages[0].position.set(-20,-0,-8);
     messages[0].rotation.y = 3.14/2;
     scene.add(messages[0]);
-    eventMap.push(new eventMapItem( 11, 7, () => { showMessage(0) }, undefined));
-    eventMap.push(new eventMapItem( 12, 7, () => { showMessage(0) }, undefined));
+    eventMap.push(new eventMapItem( 11, 7, () => { showMessage(0); hideMessage(20); }, undefined));
+    eventMap.push(new eventMapItem( 12, 7, () => { showMessage(0); hideMessage(20); }, undefined));
     eventMap.push(new eventMapItem( 18, 11, undefined, () => { hideMessage(0); showMessage(1); showMessage(2); }));
     eventMap.push(new eventMapItem( 18, 10, undefined, () => { hideMessage(0); showMessage(1); showMessage(2); }));
     eventMap.push(new eventMapItem( 18, 9, undefined, () => { hideMessage(0); showMessage(1); showMessage(2); }));
@@ -163,10 +163,16 @@ let initMessages = function() {
     showMessage(18);
 
 
-    messages.push(createMessage('(work in progress)'));
+    messages.push(createMessage(''));
     messages[19].position.set(-6, -0.5, -100);
     scene.add(messages[19]);
     showMessage(19);
+
+    messages.push(createMessage('Use the arrow keys!'));
+    messages[20].position.set(-15,1.6,-7);
+    messages[20].rotation.y = 0;
+    scene.add(messages[20]);
+    showMessage(20);
 
     eventMap.push(new eventMapItem(2,52,()=>{ startKazouMode(); }, undefined));
     eventMap.push(new eventMapItem(3,52,()=>{ startKazouMode(); }, undefined));

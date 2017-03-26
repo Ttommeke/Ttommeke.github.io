@@ -15,54 +15,29 @@
 
     <link rel="stylesheet" href="../styles.css">
 
-
-    <!-- 1. Load libraries -->
-    <!-- IE required polyfills, in this exact order -->
-    <script src="../node_modules/es6-shim/es6-shim.min.js"></script>
-    <script src="../node_modules/systemjs/dist/system-polyfills.js"></script>
-    <script src="../node_modules/angular2/es6/dev/src/testing/shims_for_IE.js"></script>
-
-    <script src="../node_modules/angular2/bundles/angular2-polyfills.js"></script>
-    <script src="../node_modules/systemjs/dist/system.src.js"></script>
-    <script src="../node_modules/rxjs/bundles/Rx.js"></script>
-    <script src="../node_modules/angular2/bundles/angular2.dev.js"></script>
-
-    <!-- 2. Configure SystemJS -->
-    <script>
-      System.config({
-        packages: {
-          app: {
-            format: 'register',
-            defaultExtension: 'js'
-          }
-        }
-      });
-      System.import('app/main')
-            .then(null, console.error.bind(console));
-    </script>
-    <!-- 2. Load our 'modules' -->
-    <script src='app/main.js'></script>
+    <script src="https://unpkg.com/vue"></script>
 
   </head>
 
   <!-- 3. Display the application -->
   <body>
-    <nav-comp>Loading...</nav-comp>
-    <whoishe-comp>Loading...</whoishe-comp>
-    <imagewhoishe-comp>Loading...</imagewhoishe-comp>
-    <skill-comp>Loading...</skill-comp>
-    <imageskills-comp>Loading...</imageskills-comp>
-    <overview-comp>Loading...</overview-comp>
-    <aws-comp>Loading...</aws-comp>
-    <imageamazon-comp>Loading...</imageamazon-comp>
-    <ing-comp>Loading...</ing-comp>
-    <cebit-comp>Loading...</cebit-comp>
-    <imagecebit-comp>Loading...</imagecebit-comp>
-    <course-comp>Loading...</course-comp>
-    <reflection-comp>Loading...</reflection-comp>
-    <!--<hackaton-comp>Loading...</hackaton-comp>-->
-
+      <div id="vueroot">
+          <nav-comp></nav-comp>
+          <banner-comp image="../whoishe.png"></banner-comp>
+          <who-is-he-comp></who-is-he-comp>
+          <banner-comp image="../skills.png"></banner-comp>
+          <skills-comp></skills-comp>
+          <project-explained-comp></project-explained-comp>
+          <project-comp v-for="project in projects" v-bind:title="project.title" v-bind:text="project.text" v-bind:image="project.image" v-bind:link="project.link"></project-comp>
+      </div>
 
   </body>
+  <script src="js/whoIsHe.js"></script>
+  <script src="js/navComp.js"></script>
+  <script src="js/projectComp.js"></script>
+  <script src="js/projectExplainedComp.js"></script>
+  <script src="js/bannerComp.js"></script>
+  <script src="js/skillsComp.js"></script>
+  <script src="js/vueRoot.js"></script>
 
 </html>

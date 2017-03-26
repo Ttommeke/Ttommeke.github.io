@@ -100,7 +100,7 @@ let checkCubeCollision = function(map,x,z) {
 
     if (xToUse < map.length && zToUse < map[xToUse].length && xToUse >= 0 && zToUse >= 0
         && (map[xToUse][zToUse] == 1 || map[xToUse][zToUse] == 3 || map[xToUse][zToUse] == 7
-         || map[xToUse][zToUse] == 13 || map[xToUse][zToUse] == 14)) {
+         || map[xToUse][zToUse] == 13 || map[xToUse][zToUse] == 14 || map[xToUse][zToUse] == 20)) {
         return false;
     }
     else {

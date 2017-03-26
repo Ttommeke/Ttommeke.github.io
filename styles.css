@@ -23,6 +23,11 @@ nav .nav a:hover {
     background-color: white;
 }
 
+.projectImage {
+    max-height: 120px;
+    margin: 20px;
+}
+
 .block-center {
     text-align: center;
 }
